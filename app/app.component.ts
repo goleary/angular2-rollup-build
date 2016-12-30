@@ -2,7 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  template: 'Hello world!'
+  templateUrl: 'app/app.component.html'
 })
-export class AppComponent {}
 
+export class AppComponent { 
+  isCopied1: boolean = false;
+  isCopied2: boolean = false;
+}
